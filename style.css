@@ -13,7 +13,6 @@ body {
   font-size: 1.6rem;
   font-family: 'Montserrat', sans-serif;
   line-height: 2rem;
-  
   background-color: #252525;
 }
 
@@ -136,10 +135,11 @@ main .card1 {
 }
 
 main h1 {
+  max-width: 57rem;
   text-align: left;
   font-weight: bold;
-  font-size: 5rem;
-  line-height: 6.1rem;
+  font-size: clamp(.1rem, 3vw, 5rem);
+  line-height: clamp(1rem, 4vw, 6.1rem);
 
   color: #FFFFFF;
 }
@@ -158,10 +158,12 @@ main h1 span {
 #galery .grup2,
 #galery .grup1 {
   display: flex;
-  justify-content: space-around;
+  gap: 1.66rem;
+  justify-content: center;
 }
 
 #galery img {
+  width: 20vw;
   border: 1px solid #FFFFFF;
 }
 
@@ -198,10 +200,6 @@ main h1 span {
   color: #FFFFFF;
 }
 
-#part2 {
-  
-}
-
 #part2 .about {
   width: 100%;
   margin-top: 8rem;
@@ -227,6 +225,7 @@ main h1 span {
 
 .about p {
   margin-left: 6.8rem;
+  margin-right: 13.8rem;
   max-width: 40rem;
 
   font-weight: 400;
@@ -355,14 +354,14 @@ main h1 span {
   display: grid;
   grid-template-areas: 'A B C'
   'D E F';
-  gap: 11rem;
+  gap: 4vw;
 }
 
 .artistContrast,
 .artist {
   display: flex;
   align-items: center;
-  gap: 4rem;
+  justify-content: space-around;
   
   max-width: 35rem ;
   height: 15rem;
@@ -529,7 +528,6 @@ form button {
 
 .footerSpace2 ul li a:hover {
   color: #ffffff;
-  transform: scale(1.5);
 }
 
 .footerSpace2 ul span {
