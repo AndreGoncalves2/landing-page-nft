@@ -18,12 +18,30 @@ body {
 /*////////////// First part ////////////// */
 
 .background {
-  padding: 5.7rem 8rem 0 8rem;
+  
   background-image: url('assets/background.png');
   background-size: cover; 
 }
 
+.background2 {
+  background-color: #000000;
+}
+
+.footerBackground {
+  background-color: #252525;
+}
+
 #part1 {
+  padding: 5.7rem 8.1rem;
+}
+
+#part1,
+#part2,
+#part3,
+#part4,
+footer {
+  padding-inline: 8.1rem;
+  max-width: 144rem;
   margin-inline: auto;
 
 }
@@ -120,10 +138,9 @@ main .card1 {
 }
 
 main h1 {
-  width: 39vw;
   text-align: left;
   font-weight: bold;
-  font-size: 3.3vw;
+  font-size: 5rem;
   line-height: 6.1rem;
 
   color: #FFFFFF;
@@ -147,15 +164,19 @@ main h1 span {
 }
 
 #galery img {
-  max-width: 22vw;
   border: 1px solid #FFFFFF;
 }
 
 /*////////////// Second Part ////////////// */
 
 #part2 {
+  margin-inline: auto;
+  padding-right: 0;
+  
   display: flex;
+
   background-color: #000000;
+  border-bottom: 1px solid #5A5757;
 }
 
 .informations {
@@ -180,8 +201,7 @@ main h1 span {
 }
 
 #part2 {
-  margin-inline: auto;
-  border-bottom: 1px solid #5A5757;
+  
 }
 
 #part2 .about {
@@ -337,14 +357,14 @@ main h1 span {
   display: grid;
   grid-template-areas: 'A B C'
   'D E F';
-  gap: 5vw;
+  gap: 11rem;
 }
 
 .artistContrast,
 .artist {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  gap: 4rem;
   
   max-width: 35rem ;
   height: 15rem;
@@ -540,9 +560,3 @@ form button {
   display: flex;
   gap: 5rem;
 }
-
-  
-
-
-
-
