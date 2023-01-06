@@ -15,4 +15,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - Um modelo de landing page completo com várias seções
 
-Clique para visualizar o projeto online: <a href="https://andregoncalves2.github.io/LandingPageNFT/">projeto</a>
+Clique para visualizar o projeto online: <a href="https://andregoncalves2.github.io/landing-page-nft/">projeto</a>
